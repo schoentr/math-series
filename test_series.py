@@ -33,15 +33,15 @@ def test_lucas_fifth_index():
     assert expected == actual
 
 # *******  sum testing ***********
-def test_lucas_fifth_index():
-    actual = sum_series(5,0,1)
+def test_sum_fifth_index():
+    actual = sum_series(5 , 0, 1)
     expected = 3
     assert expected == actual
-def test_lucas_fifth_index():
-    actual = sum_series(5,2,1)
+def test_sum_two_index():
+    actual = sum_series(5, 2, 1)
     expected = 7
     assert expected == actual
-def test_lucas_fifth_index():
-    actual = sum_series(6,2,1)
+def test_sum_x_index():
+    actual = sum_series(6, 2, 1)
     expected = 11
     assert expected == actual
