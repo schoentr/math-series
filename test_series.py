@@ -2,8 +2,9 @@ from series import fibonacci, lucas, sum_series
 # ********* fibonacci ********
 def test_third_index():
     actual = fibonacci(3)
-    expected = 1
+    expected = 1 
     assert expected == actual
+
 
 def test_fourth_index():
     actual = fibonacci(4)

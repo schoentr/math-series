@@ -6,7 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pytest = "*"
+pytest = "*" 
+autopep8 = "*"
+pipy = "*"
 
 [requires]
-python_version = "3.6.7"
+python_version = "3.7"
